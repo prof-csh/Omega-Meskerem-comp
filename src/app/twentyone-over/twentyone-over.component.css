@@ -1,0 +1,81 @@
+.body {
+  background: url("https://res.cloudinary.com/jewish-in-seattle/image/upload/c_crop,h_1800,w_2700,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/jis_1216_neighborhoods_cap_hill_street_car_clw68p.jpg");
+  transition: 10s;
+  width: 98%;
+  height: 100%;
+  background-size: auto;
+}
+
+
+.head {
+  background-color: rgb(36, 186, 171);
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  padding: 50px;
+  margin: 50px auto 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.title {
+  font-size: 80px;
+  display: inherit;
+  justify-content: center;
+  margin: 5px auto 5px auto;
+}
+
+.big-div {
+  background: rgba(134, 134, 134, 0.6);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: 10%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.little div {
+  display: inline-flex;
+  margin: 60px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
